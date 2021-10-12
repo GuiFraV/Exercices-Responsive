@@ -7,3 +7,12 @@ Résultats Exo 3:
 Au dela de 800px:
 
 ![Screenshot](First.png)
+
+
+Entre 800px et 500px :
+
+![Screenshot](Second.png)
+
+En dessous de 500px :
+
+![Screenshot](Third.png)
