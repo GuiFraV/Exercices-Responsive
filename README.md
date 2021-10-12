@@ -1,6 +1,6 @@
 # Exercices-Responsive
 
-Le but des différents exercices était de rendre un site web html responsive en utilisant media quieries.
+Le but des différents exercices étaient de rendre un site web html responsive en utilisant media quieries.
 
 Résultats Exo 3:
 
