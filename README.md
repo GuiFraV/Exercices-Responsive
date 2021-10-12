@@ -5,3 +5,5 @@ Le but des différents exercices était de rendre un site web html responsive en
 Résultats Exo 3:
 
 Au dela de 800px:
+
+![Screenshot](exo3/first.png)
