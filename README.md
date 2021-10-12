@@ -6,4 +6,4 @@ Résultats Exo 3:
 
 Au dela de 800px:
 
-![Screenshot](exo3/first.png)
+![Screenshot](First.png)
