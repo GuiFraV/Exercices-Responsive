@@ -1,0 +1,19 @@
+p {
+    color: blue;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 800px) {
+
+    p{
+        color: red;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    p{
+        color: green;
+        text-align: center;
+    }
+}

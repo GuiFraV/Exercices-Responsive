@@ -1,0 +1,91 @@
+#aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #4a4a4c;
+}
+
+#container-right{
+    background-color: salmon;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    
+}
+
+.sous-container{
+    background-color: indigo;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 800px){
+    body{
+        flex-direction: column;
+    }
+
+    #aside{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #container-right{
+        height:100vh;
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    #container-right{
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+    .sous-container{
+        width: 90%;
+        height: 120px;
+    }
+
+    .link{
+        display: none;
+    }
+
+    #aside{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+
+    #image {
+        background-image: url(house.svg);
+        height:35px;
+        width: 35px;
+        background-repeat: no-repeat;
+    }
+
+}
+
+
+
+

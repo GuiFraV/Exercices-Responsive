@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        display: flex;
+        flex-direction:column;
+    }
+
+    h1{
+        text-align: center;
+    }
+}

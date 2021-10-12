@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Ravi+Prakash&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Ravi Prakash', cursive;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+#head {
+background-color: orangered;
+height: 10%;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+h1 {
+    margin-left: 15px;
+}
+
+#headgauche {
+    /* border: 2px solid black; */
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+#back {
+    /* border: 2px solid white; */
+    display: flex;
+    height: 90vh;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+.bulle {
+    background-color: orangered;
+    height: 250px;
+    width: 650px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#foot {
+    background-color: orangered;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1299px) {
+    #head {
+        justify-content: left;
+        height: 100px;
+
+    }
+    #headgauche {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+    }
+
+    #back {
+        height: 75vh;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .bord{
+        border-bottom: 2px solid white;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    h1 {
+        display:none ;
+    }
+
+    .bulle {
+        height: 90px;
+        width: 80%;
+    }
+
+    body {
+        height: 100%;
+    }
+}
