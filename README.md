@@ -16,3 +16,7 @@ Entre 800px et 500px :
 En dessous de 500px :
 
 ![Screenshot](Third.png)
+
+Conclusion :
+
+![Screenshot](Exos.gif)
